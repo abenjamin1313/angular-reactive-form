@@ -1,6 +1,15 @@
-# NgForms
+## NgForms
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
+
+
+## Landing Pages  
+
+![alt text](https://github.com/abenjamin1313/angular-reactive-form/blob/master/src/images/form-one.png)  
+![alt text](https://github.com/abenjamin1313/angular-reactive-form/blob/master/src/images/form-two.png)  
+![alt text](https://github.com/abenjamin1313/angular-reactive-form/blob/master/src/images/form-three.png)  
+![alt text](https://github.com/abenjamin1313/angular-reactive-form/blob/master/src/images/form-four.png)  
+![alt text](https://github.com/abenjamin1313/angular-reactive-form/blob/master/src/images/form-five.png)  
 
 ## Development server
 
