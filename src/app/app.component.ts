@@ -7,7 +7,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  
+  title:string = 'Angular Reactive Form';
   rForm: FormGroup;
   post:any;                     // A property for our submitted form
   description:string = '';

@@ -2,7 +2,7 @@
   <form [formGroup]="rForm" (ngSubmit)="addPost(rForm.value)">
     <div class="form-container">
       <div class="row columns">
-        <h1>Angular Reactive Form</h1>
+        <h1>{{ title }}</h1>
         <label>Name
           <input type="text" formControlName="name">
         </label>

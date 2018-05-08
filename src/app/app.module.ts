@@ -4,7 +4,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 // service
-import { XyzErrorHandlerService } from './error-handler.service';
+import { XyzErrorHandlerService } from './service/error-handler.service';
 
 @NgModule({
   declarations: [
