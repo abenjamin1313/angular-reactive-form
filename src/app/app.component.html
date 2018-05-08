@@ -1,14 +1,20 @@
-<div *ngIf="!name; else forminfo">
+<div *ngIf="!firstName; else forminfo">
   <form [formGroup]="rForm" (ngSubmit)="addPost(rForm.value)">
     <div class="form-container">
       <div class="row columns">
         <h1>{{ title }}</h1>
-        <label>Name
-          <input type="text" formControlName="name">
+        <label>First Name
+          <input type="text" formControlName="firstName">
         </label>
-        <div class="alert" *ngIf="!rForm.controls['name'].valid && rForm.controls['name'].touched">
+        <div class="alert" *ngIf="!rForm.controls['firstName'].valid && rForm.controls['firstName'].touched">
             {{ titleAlert }}
           </div>
+          <label>Last Name
+            <input type="text" formControlName="lastName">
+          </label>
+          <div class="alert" *ngIf="!rForm.controls['lastName'].valid && rForm.controls['lastName'].touched">
+              {{ titleAlert }}
+            </div>
         <label>Description
           <textarea  formControlName="description"></textarea>
         </label>
@@ -28,8 +34,8 @@
 <ng-template #forminfo>
   <div class="form-container">
     <div class="row columns">
-        <h1>{{ name }}</h1>
-
+        <h3>{{ firstName }} {{ lastName }}</h3>
+        
         <p>{{ description }}</p>
     </div>
   </div>
