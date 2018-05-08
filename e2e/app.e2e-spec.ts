@@ -9,6 +9,16 @@ describe('ng-forms App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to app!');
+    expect(page.getHeaderText()).toEqual('Angular Reactive Form');
+  });
+
+  it('should display name', () => {
+    page.navigateTo();
+    expect(page.getLabelName()).toEqual('name');
+  });
+
+  it('should submit form', () => {
+    page.navigateTo();
+    expect(page.getSubmitButton().click());
   });
 });
