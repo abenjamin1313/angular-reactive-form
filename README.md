@@ -11,11 +11,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ![alt text](https://github.com/abenjamin1313/angular-reactive-form/blob/master/src/images/form-four.png)  
 ![alt text](https://github.com/abenjamin1313/angular-reactive-form/blob/master/src/images/form-five.png)    
   
-### karma  
+## karma  
 ![alt text](https://github.com/abenjamin1313/angular-reactive-form/blob/master/src/images/karma.png)  
   
 ## karma-spec-reporter  
-![alt text]()https://github.com/abenjamin1313/angular-reactive-form/blob/master/src/images/karma-spec-reporter.png
+![alt text](https://github.com/abenjamin1313/angular-reactive-form/blob/master/src/images/karma-spec-reporter.png)
 
 ## Development server
 
